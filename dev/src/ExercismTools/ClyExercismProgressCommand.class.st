@@ -1,3 +1,6 @@
+"
+Menu command to view progress on the Exercism website
+"
 Class {
 	#name : #ClyExercismProgressCommand,
 	#superclass : #ClyExercismExerciseCommand,
