@@ -10,7 +10,7 @@ Class {
 { #category : #exercism }
 Pangram >> isPangramSentence: aString [ 
 	| testString |
-	testString := aString asLowercase select: [ :c | c isLetter].
+	testString := aString asLowercase onlyLetters.
 	^ testString asSet = Character alphabet asSet
 	
 ]
