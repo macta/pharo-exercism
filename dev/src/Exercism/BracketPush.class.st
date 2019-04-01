@@ -1,7 +1,7 @@
 Class {
 	#name : #BracketPush,
 	#superclass : #Object,
-	#category : #'ExercismWIP-BracketPush'
+	#category : #'Exercism-BracketPush'
 }
 
 { #category : #'private-constants' }
@@ -17,8 +17,8 @@ BracketPush >> is: closeChar closingBracketFor: openChar [
 		ifNone: [ false ]
 ]
 
-{ #category : #testing }
-BracketPush >> isPairedValue: aString [
+{ #category : #exercism }
+BracketPush >> isPaired: aString [
 	| stack |
 	
 	stack := Stack new.
