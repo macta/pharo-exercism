@@ -75,7 +75,7 @@ Class {
 	#instVars : [
 		'foodChainCalculator'
 	],
-	#category : #'ExercismWIP-FoodChain'
+	#category : #'Exercism-FoodChain'
 }
 
 { #category : #config }
